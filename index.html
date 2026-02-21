@@ -5,59 +5,79 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tuấn Thao - CV</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
 <style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
 body{
-  font-family: Arial, sans-serif;
-  margin:0;
-  background:#f5f6fa;
+  font-family:'Inter', sans-serif;
+  background:linear-gradient(135deg,#eef2f7,#dfe9f3);
   color:#333;
 }
 
 .container{
   max-width:900px;
-  margin:auto;
+  margin:40px auto;
   background:white;
-  padding:30px;
-  margin-top:40px;
-  border-radius:12px;
-  box-shadow:0 4px 15px rgba(0,0,0,0.08);
+  border-radius:16px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+  overflow:hidden;
 }
 
 .header{
+  background:linear-gradient(120deg,#2563eb,#3b82f6);
+  color:white;
   text-align:center;
-  margin-bottom:25px;
+  padding:35px 20px;
 }
 
 .header h1{
-  margin:0;
-  color:#2c3e50;
+  font-weight:600;
+  font-size:32px;
 }
 
 .contact{
-  margin-top:8px;
+  margin-top:10px;
   font-size:14px;
-  color:#555;
+  opacity:0.95;
 }
 
 .section{
-  margin-top:25px;
+  padding:25px 30px;
 }
 
 .section h2{
-  border-bottom:2px solid #eee;
-  padding-bottom:6px;
-  color:#2c3e50;
+  color:#2563eb;
+  margin-bottom:12px;
+  font-size:20px;
+}
+
+.section p{
+  line-height:1.6;
 }
 
 ul{
   padding-left:20px;
+  line-height:1.7;
+}
+
+ul li{
+  margin-bottom:6px;
 }
 
 .footer{
   text-align:center;
-  margin-top:30px;
+  padding:15px;
   font-size:13px;
   color:#888;
+  border-top:1px solid #eee;
+}
+
+/* Mobile */
+@media(max-width:600px){
+  .header h1{font-size:26px;}
+  .section{padding:20px;}
 }
 </style>
 </head>
@@ -79,7 +99,7 @@ ul{
     <h2>Giới thiệu</h2>
     <p>
       Sinh viên định hướng phát triển trong lĩnh vực Công nghệ Thông tin.
-      Mong muốn học hỏi kinh nghiệm thực tế, nâng cao kỹ năng và tham gia
+      Mong muốn tích lũy kinh nghiệm thực tế, nâng cao kỹ năng và tham gia
       xây dựng các sản phẩm hữu ích.
     </p>
   </div>
@@ -90,7 +110,7 @@ ul{
       <li>HTML & CSS cơ bản</li>
       <li>JavaScript cơ bản</li>
       <li>Git & GitHub</li>
-      <li>Khả năng tự học và tìm kiếm tài liệu</li>
+      <li>Kỹ năng tự học và tìm kiếm tài liệu</li>
     </ul>
   </div>
 
@@ -99,7 +119,7 @@ ul{
     <ul>
       <li>Website giới thiệu bản thân</li>
       <li>Thực hành xây dựng giao diện web</li>
-      <li>Tìm hiểu và sử dụng GitHub để quản lý mã nguồn</li>
+      <li>Quản lý mã nguồn bằng GitHub</li>
     </ul>
   </div>
 
